@@ -29,3 +29,15 @@ int main()
     cout<<"y = "<<y<<endl;
     cout<<"z = "<<z<<endl;
 }
+
+Question no 3:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    (a%2 == 0)? cout<<"Even" : cout<<"Odd";
+    return 0;
+}
