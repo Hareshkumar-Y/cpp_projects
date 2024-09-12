@@ -41,3 +41,6 @@ int main()
     (a%2 == 0)? cout<<"Even" : cout<<"Odd";
     return 0;
 }
+
+Question no 4:
+
