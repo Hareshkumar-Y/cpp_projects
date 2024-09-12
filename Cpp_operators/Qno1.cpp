@@ -1,4 +1,3 @@
-// c++ attendance percentage calculator with only 2 float points.(number of days present).
 #include<iostream>
 #include<cmath>
 using namespace std;
