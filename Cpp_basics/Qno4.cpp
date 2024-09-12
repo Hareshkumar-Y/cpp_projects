@@ -7,4 +7,3 @@ int main() {
     cout<<username<<'\t'<<password;
     return 0;
 }
-    

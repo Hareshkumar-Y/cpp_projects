@@ -1,0 +1,60 @@
+Question no 1:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    cout<<a*b;
+    return 0;
+    
+}
+
+Question no 2:
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a , b;
+    cin >>a>>b;
+    cout <<a + b;
+    return 0;
+}
+
+Question no 3:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cin>>ch;
+    cout<<(int)ch;
+    return 0;
+}
+
+Question no 4:
+
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main() {
+    string username, password;
+    cin>>username>>password;
+    cout<<username<<'\t'<<password;
+    return 0;
+}
+
+Question no 5:
+
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+    string name;
+    cin>>name;
+    cout<<"Hello "<<name<<"! Welcome to Examly Event Management System";
+    return 0;
+}
