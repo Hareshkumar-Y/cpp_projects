@@ -8,12 +8,14 @@ int main()
     {
         case 'm':
         case 'M':
-        cout<<"Male"<<endl;
+        cout<<"Male";
         break;
         case 'f':
         case 'F':
-        cout<<"Female"<<endl;
+        cout<<"Female";
         break;
+        default:
+        cout<<"Invalid input";
     }
     return 0;
 }
