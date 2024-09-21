@@ -8,11 +8,13 @@ int main()
     {
         cout<<"Error! Factorial of a negative number";
     }
-    
-    for(int i = 1; i <= num; i++)
+    else
     {
-        factorial *= i;
+        for(int i = 1; i <= num; i++)
+        {
+            factorial *= i;
+        }
+        cout<<factorial;
     }
-    cout<<factorial;
     return 0;
 }
