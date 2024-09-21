@@ -2,15 +2,16 @@
 using namespace std;
 int main()
 {
-    int n, a=0,b=1;
+    int n, a=0,b=1,i=2;
     cin>>n;
     cout<<a<<" "<<b<<" ";
-    for(int i=2;i<n;i++)
+    while(i<n)
     {
         int c=a+b;
         cout<<c<<" ";
         a=b;
         b=c;
+        i++;
     }
     return 0;
 }
